@@ -2,7 +2,7 @@
 
 ## Overview
 &nbsp;
-This script takes chosen .docx file and update every year with next year and save updated file as **updated_<name_of_file>**
+This script takes chosen .docx file and update every year with next year and save updated file as **<name_of_file>** and if there is year it is incremented by 1
 
 &nbsp;
 
