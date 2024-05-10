@@ -35,6 +35,26 @@ start.bat
 ```
 
 
+## To create binary file
+
+**Install pyinstaller:**
+
+```
+pip install pyinstaller
+```
+&nbsp;
+
+**Run following command:**
+
+```
+py pyinstaller docxUpdater.py
+```
+
+The file **dist** is going to be created in same folder as the script is saved. In this folder is created .exe file
+
+
+
+
 
 
 
