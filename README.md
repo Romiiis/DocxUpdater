@@ -40,7 +40,7 @@ start.bat
 **Install pyinstaller:**
 
 ```
-pip install pyinstaller
+pip install pyinstaller --onefile
 ```
 &nbsp;
 
