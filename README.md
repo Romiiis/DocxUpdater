@@ -2,7 +2,7 @@
 
 ## Overview
 &nbsp;
-This script takes chosen .docx file and update every year with next year and save updated file as **updated_<name_of_file>**
+This script takes chosen .docx file and update every year with next year and save updated file as **<name_of_file>** and if there is year it is incremented by 1
 
 &nbsp;
 
@@ -33,6 +33,26 @@ start.bat
 ```
 ./start.sh
 ```
+
+
+## To create binary file
+
+**Install pyinstaller:**
+
+```
+pip install pyinstaller --onefile
+```
+&nbsp;
+
+**Run following command:**
+
+```
+py pyinstaller docxUpdater.py
+```
+
+The file **dist** is going to be created in same folder as the script is saved. In this folder is created .exe file
+
+
 
 
 
